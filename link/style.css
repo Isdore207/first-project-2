@@ -1,0 +1,23 @@
+.wrapper{
+    text-align: center;
+    height: 40px;
+    border: 10px;
+    margin: 150px;
+    
+}
+html{
+    background-image: url(istockphoto-2021524839-612x612.jpg);
+}
+
+div{
+    border-color: blue;
+    margin: 5px;
+    padding: 5px;
+    
+}
+h1, p{
+    color: blue;
+}
+input{
+  border: 5px solid blue;  
+}

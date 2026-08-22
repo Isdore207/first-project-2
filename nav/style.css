@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+.login-container{
+    background: white;
+    padding: 20px 30px;
+    border-radius: 80px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,2);
+    width: 300px;
+}
+.login-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+    text-transform:capitalize ;   
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ddd;
+}
+button{width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #165ec9;
+}
+.forgot-password{
+    text-align: center;
+    margin-top: 12px;
+    text-transform: capitalize;
+    font-size: 14px;
+    cursor: pointer;
+}
